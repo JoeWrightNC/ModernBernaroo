@@ -393,7 +393,7 @@ $(function() {
         questionNumber = $(el).attr('data-askus-number');
         questionNumber = parseInt(questionNumber);
     };
-    $('.askusbar', '#askus-container').on('click', function() {
+    $('.askusbar', '#askus-container').on('touchstart click', function() {
         askusbarClick(this);
     });
     //Ask us bar close button event
