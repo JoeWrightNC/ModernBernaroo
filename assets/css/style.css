@@ -19,6 +19,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
     margin: 0;
 }
+
+.bgPopper {
+    background-color: #3B5998
+}
 /* Scrollbar colour */
 p::-webkit-scrollbar-track,body::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
@@ -2211,6 +2215,7 @@ Sponsors
 #sponsors_details {
     height: auto;
     padding-top: 65px;
+
 }
 /* IE Only */
 
@@ -2277,7 +2282,7 @@ Sponsors
 .sponsor-section .sponsor-wrap > a::before {
     content: "";
     position: absolute;
-    background-color: rgba(8, 11, 25, 0.72);
+    background-color: #3B5998;
     background-size: cover;
     width: 85%;
     height: 60%;
@@ -2964,6 +2969,9 @@ ul#filterOptions li a {
  Ask us
  ------------------------------------------------------------------------ */
 
+#otherArtists {
+    text-align:center;
+}
 #askus-answers .askus-question-icon {
     position: relative;
     height: 70px;
@@ -3076,7 +3084,7 @@ a.askus-next-button:hover {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    width: 100%;
+    width: 80%;
     height: 700px;
 }
 .askus-section header.top-bar {
@@ -3170,9 +3178,10 @@ a.askus-next-button:hover {
     overflow: hidden;
 }
 .askus-section .wraper {
-    width: 100%;
+    width: 80%;
     height: 100%;
     position: relative;
+    margin:auto;
 }
 @media screen and (-ms-high-contrast: active),
 (-ms-high-contrast: none) {
@@ -3247,13 +3256,13 @@ a.askus-next-button:hover {
     cursor: pointer;
 }
 .askus_content_bar .askus-bar.dark {
-    background-color: #181929;
+    background-color: rgb(33, 52, 94);
 }
 .askus_content_bar .askus-bar.medium {
-    background-color: #1e1f33;
+    background-color: #3B5998;
 }
 .askus_content_bar .askus-bar.light {
-    background-color: #24253d;
+    background-color: rgb(84, 126, 218);
 }
 .askus_content_bar .title {
     color: #E02444;
@@ -3862,7 +3871,7 @@ a.askus-prev-button .fa, a.askus-next-button .fa {
     width: 100%;
     height: 100%;
     background: #FFF;
-    background-color: #061323;
+    background-color: #3B5998;
     z-index: 1000;
     -webkit-transform: translateX(0);
     -moz-transform: translateX(0);
