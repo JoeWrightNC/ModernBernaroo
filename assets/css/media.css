@@ -548,6 +548,11 @@
     .askus_content_bar .askusbar {
     height: 200px;
     }
+
+    .page-footer {
+        position:none;
+        padding-top: 300px;
+    }
     /* Menu 2 */
     
     #normal-menu > ul {
