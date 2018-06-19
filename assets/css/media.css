@@ -344,9 +344,7 @@
     .askus-section .fp-tableCell {
         height: auto !important;
     }
-    .artist_grid figure figcaption > a {
-        /* pointer-events: none;*/
-    }
+
     /* Gallery */
     
     .gallery-section.active #galleryHolder {
@@ -550,7 +548,7 @@
     }
 
     .page-footer {
-        position:none;
+        position:static !important;
         padding-top: 300px;
     }
     /* Menu 2 */
