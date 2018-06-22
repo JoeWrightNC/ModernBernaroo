@@ -1403,6 +1403,7 @@ Sponsors
     float: left;
     height: 174px;
 }
+
 .sub_div {
     height: 100%;
 }
@@ -1426,6 +1427,7 @@ Sponsors
     background-color: rgb(84, 0, 36);
     background-blend-mode: soft-light;
 }
+
 .sponsor-section .sponsor-wrap > a::before {
     content: "";
     position: absolute;
@@ -1439,6 +1441,11 @@ Sponsors
     bottom: 0;
     right: 0;
 }
+
+#exception::before {
+    background-color: transparent !important;
+}
+
 .sponsor-section .sponsor-wrap > a>span:after {
     content: "";
     position: absolute;
@@ -1459,6 +1466,7 @@ Sponsors
     -o-transform: rotate(44.9deg);
     transform: rotate(44.9deg);
 }
+
 .sponsor-section .sponsor-wrap a:hover .sponsor_text span {
     color: #FFF;
 }
@@ -1487,12 +1495,7 @@ Sponsors
     margin-bottom: 50px;
 }
 
-.normal-scroll .sponsor-section .sponsor-wrap > div {
-    position: relative;
-    overflow: hidden;
-    float: left;
-    height: 115px;
-    margin-bottom: 50px;
+#exception {
     cursor: default !important;
 }
 
