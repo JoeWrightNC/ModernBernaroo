@@ -34,6 +34,22 @@ body {
     margin-top:5vh;
 }
 
+.footerImg {
+    height:70px;
+    width:auto;
+    margin-top: 2vh;
+}
+
+.sponsorWide {
+    width:80% !important;
+    height:auto !important;
+}
+
+.sponsorTall {
+    height:80% !important;
+    width:auto !important;
+}
+
 /* Scrollbar colour */
 p::-webkit-scrollbar-track,body::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
@@ -1470,6 +1486,16 @@ Sponsors
     height: 115px;
     margin-bottom: 50px;
 }
+
+.normal-scroll .sponsor-section .sponsor-wrap > div {
+    position: relative;
+    overflow: hidden;
+    float: left;
+    height: 115px;
+    margin-bottom: 50px;
+    cursor: default !important;
+}
+
 .normal-scroll .sponsor-section .sponsor-wrap > a::before {
     height: 100%;
 }
