@@ -1,2 +1,2 @@
 # ModernBernaroo
-Bernaroo site, but bigger better fast stronger.
+New version of Bernaroo site, bigger better fast stronger.
